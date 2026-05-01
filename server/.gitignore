@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Local settings & secrets
+appsettings.Development.json
+*.env
+.env
+
+# Publish output
+publish/
+**/publish/
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
